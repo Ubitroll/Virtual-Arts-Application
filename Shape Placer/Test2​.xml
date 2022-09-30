@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object posX="-4.5" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" Material="0" Shape="0" />
+  <Object posX="2" posY="0" posZ="-1.5" rotX="0" rotY="0" rotZ="0" Material="2" Shape="1" />
+  <Object posX="-2" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" Material="1" Shape="2" />
+  <Object posX="3" posY="0" posZ="1.5" rotX="0" rotY="0" rotZ="0" Material="0" Shape="3" />
+  <Object posX="-2.5" posY="0" posZ="3" rotX="0" rotY="0" rotZ="0" Material="4" Shape="3" />
+  <Object posX="-0.5" posY="0" posZ="-3" rotX="0" rotY="0" rotZ="0" Material="1" Shape="1" />
+  <Object posX="5.5" posY="0" posZ="5" rotX="0" rotY="0" rotZ="0" Material="2" Shape="2" />
+  <Object posX="5.5" posY="0" posZ="-2" rotX="0" rotY="0" rotZ="0" Material="0" Shape="2" />
+</Objects>
