@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Objects>
-  <Object posX="0.5836176" posY="0.5" posZ="1.941082" rotX="0" rotY="0.258819" rotZ="0" Material="1" Shape="1" />
-  <Object posX="1.875247" posY="0.5" posZ="-1.736082" rotX="0" rotY="-0.1305262" rotZ="0" Material="0" Shape="2" />
-  <Object posX="0.04616189" posY="0.5" posZ="1.060177" rotX="0" rotY="0" rotZ="0" Material="2" Shape="3" />
-  <Object posX="2.085032" posY="0.5" posZ="-0.1594856" rotX="0" rotY="0" rotZ="0" Material="0" Shape="0" />
-</Objects>

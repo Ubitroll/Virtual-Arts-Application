@@ -1,455 +1,454 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1664504286228094, "dur":954, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504286229053, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1664504286229108, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1664504286229124, "dur":390, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1664504286229545, "dur":428, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504286229973, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114077, "dur":134, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114212, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114243, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114249, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114267, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114272, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114282, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114286, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114295, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114299, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114308, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114311, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114321, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114325, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114335, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114338, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114346, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114361, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287114365, "dur":1339, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1664504286230004, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286230005, "dur":2296, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286232315, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1664504286232319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286233447, "dur":318, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1664504286233768, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1664504286233789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286233981, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1664504286236759, "dur":107362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1664504286344124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286344171, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1664504286344940, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1664504286344982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286344988, "dur":74028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1664504286419038, "dur":9639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer.exe" }}
-,{ "pid":12345, "tid":1, "ts":1664504286428680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286428685, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer.exe" }}
-,{ "pid":12345, "tid":1, "ts":1664504286429791, "dur":3220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286433015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286433209, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286433822, "dur":2599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286436425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286436452, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286437187, "dur":2491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286439681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286439687, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286440303, "dur":2541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286442847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286442852, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286443479, "dur":2509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286445992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286445996, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286446735, "dur":2606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286449344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286449349, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286450187, "dur":2632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286452823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286452828, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286453658, "dur":2571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286456233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286456238, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286457103, "dur":2558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286459665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286459670, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286460530, "dur":2321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286462853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286462857, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286463630, "dur":2719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286466356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286466363, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286467780, "dur":4223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286472006, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286472015, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286473123, "dur":3292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286476419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286476425, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286477529, "dur":3384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286480915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286480919, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286481796, "dur":3724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286485559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286485565, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286486399, "dur":3058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286489461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286489466, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286490188, "dur":2958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286493150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286493155, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286493993, "dur":3658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286497655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286497660, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286499040, "dur":3146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286502190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286502196, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286503126, "dur":3516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286506645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286506649, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286507735, "dur":2479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286510216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286510220, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286511105, "dur":3448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286514556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286514562, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286515430, "dur":2791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286518224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286518229, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286519039, "dur":2907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286521948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286521952, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286522752, "dur":3161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286525915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286525919, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286526760, "dur":3364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286530165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286530171, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286530915, "dur":3073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286533992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286533998, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286534834, "dur":3420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286538258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286538263, "dur":673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286538945, "dur":3147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286542096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286542104, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286542835, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286542924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286542927, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286543619, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286544197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286544201, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286545274, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286545610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286545613, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286546420, "dur":2354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286548778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286548784, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286549823, "dur":5074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286554900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286554905, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286555932, "dur":3000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286558935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286558940, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286559810, "dur":2757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286562569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286562573, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286563357, "dur":4778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286568139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286568145, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286569099, "dur":3051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286572154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286572160, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286572883, "dur":8355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286581245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286581254, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286583140, "dur":5411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286588556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286588564, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286589870, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286590005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286590016, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1664504286591595, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1664504286591615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286591635, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1664504286593045, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1664504286593068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286593075, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1664504286594671, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1664504286594791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286594794, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1664504286595574, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1664504286595590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286595594, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1664504286596507, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1664504286596530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1664504286596538, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1664504286597496, "dur":516671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1664504286230029, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1664504286230029, "dur":2278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1664504286232312, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1664504286232374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1664504286234216, "dur":28611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1664504286262842, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1664504286262869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1664504286262874, "dur":68588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1664504286331484, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1664504286331511, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1664504286331516, "dur":65930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1664504286397480, "dur":705064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1664504287102548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1664504287102552, "dur":11396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1664504287113972, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":2, "ts":1664504287113975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1664504286230059, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1664504286230060, "dur":2245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1664504286232312, "dur":112281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1664504286344597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1664504286344799, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1664504286345534, "dur":245594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1664504286591141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1664504286592112, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1664504286593798, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1664504286593825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1664504286593832, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1664504286594940, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1664504286594956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1664504286594961, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1664504286596199, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1664504286596212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1664504286596216, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1664504286597069, "dur":517112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1664504286230093, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1664504286230093, "dur":2222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1664504286232317, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1664504286232379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1664504286234053, "dur":28755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1664504286262838, "dur":134886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1664504286397726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1664504286397731, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1664504286398380, "dur":254826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1664504286653210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1664504286653214, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1664504286654337, "dur":459744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1664504286230127, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1664504286230127, "dur":2193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1664504286232321, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1664504286232376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1664504286234206, "dur":20144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1664504286254385, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1664504286254428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1664504286254453, "dur":67197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1664504286321663, "dur":107005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1664504286428673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1664504286428681, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1664504286429501, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1664504286429543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1664504286429771, "dur":164975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1664504286594770, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":5, "ts":1664504286594921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1664504286594926, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":5, "ts":1664504286595780, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1664504286595793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1664504286595796, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1664504286596757, "dur":517417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286230154, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286230154, "dur":2162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286232317, "dur":111988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1664504286344307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286344311, "dur":673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1664504286345005, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1664504286345039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286345044, "dur":128114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1664504286473184, "dur":7592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286480782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286480790, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286482485, "dur":4423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286486912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286486919, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286487743, "dur":2626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286490371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286490376, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286491089, "dur":2825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286493952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286493957, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286494744, "dur":2917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286497663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286497666, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286498987, "dur":3328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286502318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286502322, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286503233, "dur":2751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286505988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286505993, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286506836, "dur":3363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286510205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286510213, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286511141, "dur":3412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286514556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286514562, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286515539, "dur":2712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286518253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286518257, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286519038, "dur":2855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286521897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286521902, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286522780, "dur":2875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286525659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286525664, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286526467, "dur":8572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286535041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286535045, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286536207, "dur":2589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286538800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286538807, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286539671, "dur":2685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286542358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286542362, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286543081, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286543553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286543560, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286544488, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286544653, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286544660, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286545405, "dur":3483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286548891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286548894, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286549831, "dur":3928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286553763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286553769, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286554780, "dur":6099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286560881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286560885, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286562357, "dur":2706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286565066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286565069, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286566128, "dur":9376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286575508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286575515, "dur":3282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286578811, "dur":5034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286583849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286583860, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286585054, "dur":15176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286600234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1664504286600240, "dur":2690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1664504286602941, "dur":511154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1664504286230180, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1664504286230181, "dur":2138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1664504286232319, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1664504286232378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1664504286233987, "dur":44390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1664504286278397, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1664504286278422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1664504286278731, "dur":40387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1664504286319136, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1664504286319217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1664504286319240, "dur":66490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1664504286385751, "dur":543865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1664504286929619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1664504286929644, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1664504286933694, "dur":180394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286230207, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286230207, "dur":2104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286232312, "dur":66855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1664504286299171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286299203, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1664504286299835, "dur":149664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1664504286449501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286449539, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1664504286450097, "dur":2722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286452823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286452828, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286453663, "dur":2624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286456290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286456293, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286457095, "dur":2566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286459664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286459670, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286460443, "dur":2377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286462823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286462828, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286463645, "dur":2741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286466388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286466392, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286468021, "dur":3672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286471698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286471706, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286473166, "dur":3250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286476419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286476425, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286477515, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286477793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286477798, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286478820, "dur":2938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286481764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286481774, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286482739, "dur":3654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286486398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286486403, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286487102, "dur":3295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286490399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286490403, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286491220, "dur":2681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286493947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286493955, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286494714, "dur":2949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286497665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286497668, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286499247, "dur":4048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286503298, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286503304, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286504015, "dur":3876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286507895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286507903, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286508839, "dur":2749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286511590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286511594, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286512344, "dur":4103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286516449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286516454, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286517323, "dur":2680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286520006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286520042, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286520721, "dur":2823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286523547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286523552, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286524277, "dur":2758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286527039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286527046, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286527822, "dur":3447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286531272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286531285, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286532517, "dur":3320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286535840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286535846, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286536643, "dur":3479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286540125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286540132, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286540980, "dur":3227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286544212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286544218, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286545154, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286545305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286545308, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286545971, "dur":9439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286555438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286555443, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286557673, "dur":2965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286560640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286560645, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286561408, "dur":3557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286564968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286564973, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286565969, "dur":10128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286576101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286576107, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286578850, "dur":5667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286584521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286584529, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286586007, "dur":8286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286594347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286594406, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1664504286595639, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/level0.resS" }}
-,{ "pid":12345, "tid":8, "ts":1664504286595654, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286595657, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/level0.resS" }}
-,{ "pid":12345, "tid":8, "ts":1664504286596729, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual Artz Build/Shape Placer_Data/boot.config" }}
-,{ "pid":12345, "tid":8, "ts":1664504286596825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1664504286596866, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual Artz Build/Shape Placer_Data/boot.config" }}
-,{ "pid":12345, "tid":8, "ts":1664504286597633, "dur":516520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1664504287117055, "dur":1525, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1664505572636486, "dur":967, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572637459, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1664505572637508, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1664505572637524, "dur":421, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1664505572638003, "dur":457, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572638460, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749066, "dur":145, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749212, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749222, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749225, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749232, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749234, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749240, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749242, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749248, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749251, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749257, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749259, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749265, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749267, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749272, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749275, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749281, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749295, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572749351, "dur":1056, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1664505572638442, "dur":26, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572638468, "dur":2292, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572640775, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664505572640776, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572640808, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664505572640812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572642698, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664505572646010, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664505572646038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572646096, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664505572647076, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1664505572647131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572647140, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1664505572648138, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572648164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572648214, "dur":8015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572656241, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572656258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572656263, "dur":7347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572663626, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572663655, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572663662, "dur":6147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572669832, "dur":942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572670798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572670807, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572672761, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572672781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572672788, "dur":5677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572678507, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572678952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572679215, "dur":4921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572684151, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572684168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572684175, "dur":6489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572690678, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572690693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572690697, "dur":5462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572696175, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572696191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572696197, "dur":5556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572701768, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572701785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572701790, "dur":5569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572707380, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572707397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572707403, "dur":5882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572713301, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572713321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572713363, "dur":17207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572730595, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572730619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572730761, "dur":7683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572738463, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572738601, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572738611, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664505572739630, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1664505572739777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572739783, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1664505572741311, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1664505572741329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572741335, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1664505572742241, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1664505572742259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664505572742262, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1664505572743139, "dur":5941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572638490, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572638491, "dur":2275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572640772, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1664505572640809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572643997, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1664505572646058, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1664505572646081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572646099, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1664505572647045, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1664505572647070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572647075, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1664505572647817, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572647871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572648208, "dur":7719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572655946, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572655971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572655979, "dur":7495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572663490, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572663560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572663567, "dur":6495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572670079, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572670100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572670107, "dur":5255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572675374, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572675394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572675401, "dur":7398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572682815, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572682837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572682845, "dur":7033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572689896, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572689914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572689921, "dur":8875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572698813, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572698834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572698844, "dur":6286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572705145, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572705164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572705205, "dur":7684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572712909, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572712928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572712936, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572714375, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572714393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572714398, "dur":9856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572724272, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572724294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572724300, "dur":7206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572731533, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572731563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572731574, "dur":7703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664505572739298, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1664505572739317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572739338, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1664505572740585, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1664505572740706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572740758, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1664505572741650, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1664505572741672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664505572741679, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1664505572742692, "dur":6371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572638518, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572638518, "dur":2247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572640772, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1664505572640815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572643524, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1664505572646149, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1664505572646202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572646295, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1664505572647150, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572647172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572647357, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572650232, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572650270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572650282, "dur":5975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572656370, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572656394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572656399, "dur":7206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572663620, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572663637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572663644, "dur":5450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572669107, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572669123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572669128, "dur":6074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572675218, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572675240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572675250, "dur":7041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572682309, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572682330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572682338, "dur":5788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572688140, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572688163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572688203, "dur":6159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572694379, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572694399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572694406, "dur":6899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572701321, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572701342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572701347, "dur":6103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572707468, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572707484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572707489, "dur":5585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572713089, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572713284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572713291, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572715107, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572715125, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572715133, "dur":10624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572725772, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572725791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572725797, "dur":16071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664505572741883, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664505572741902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664505572741908, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664505572742986, "dur":6086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572638545, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572638545, "dur":2229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572640774, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1664505572640810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572643603, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1664505572646096, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664505572646123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572646635, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664505572647314, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1664505572647331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572647336, "dur":16344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1664505572663698, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572663715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572663720, "dur":6381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572670116, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572670132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572670137, "dur":5232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572675380, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572675401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572675405, "dur":8773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572684192, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572684210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572684214, "dur":9185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572693415, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572693437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572693444, "dur":6173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572699634, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572699685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572699690, "dur":5406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572705424, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572705443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572705448, "dur":7681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572713146, "dur":832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572713983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572713998, "dur":4984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572719005, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572719025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572719034, "dur":8397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572727454, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572727482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572727489, "dur":12489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664505572739994, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1664505572740143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572740152, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1664505572740958, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1664505572740978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664505572740985, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1664505572742413, "dur":6652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572638570, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572638571, "dur":2204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572640775, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1664505572640879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572643581, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1664505572646150, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1664505572646197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572646286, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1664505572647156, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572647180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572647319, "dur":8752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572656095, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572656125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572656130, "dur":7323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572663472, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572663491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572663541, "dur":5628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572669187, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572669205, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572669210, "dur":6733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572675961, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572676001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572676007, "dur":6437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572682464, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572682485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572682492, "dur":4973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572687482, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572687499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572687506, "dur":5256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572692780, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572692800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572692810, "dur":6838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572699717, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572699747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572699752, "dur":13038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572712805, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572713444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572713452, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572715313, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572715334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572715339, "dur":9973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572725344, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572725521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572725528, "dur":12224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572737770, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572737791, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664505572737804, "dur":8589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664505572746404, "dur":2670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572638604, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572638604, "dur":2174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572640778, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1664505572640811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572643586, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1664505572646228, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1664505572646261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572646307, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1664505572647205, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1664505572647230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572647236, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1664505572649566, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572649608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572649642, "dur":6543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572656247, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572656267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572656272, "dur":7207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572663492, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572663648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572663655, "dur":6114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572669786, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572669809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572669818, "dur":12956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572682791, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572682813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572682818, "dur":4795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572687627, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572687644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572687651, "dur":7519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572695335, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572695384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572695408, "dur":5763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572701188, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572701237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572701244, "dur":6244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572707501, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572707520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572707527, "dur":5607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572713149, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572713169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572713176, "dur":6448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572719639, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572719659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572719670, "dur":7404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572727092, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572727112, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572727162, "dur":15096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664505572742272, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1664505572742485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664505572742487, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1664505572743155, "dur":5913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572638630, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572638630, "dur":2149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572640779, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1664505572640876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572643668, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1664505572646034, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1664505572646051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572646106, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1664505572646983, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1664505572646995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572647009, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1664505572647657, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1664505572647678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572647876, "dur":6718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1664505572654632, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572654656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572654665, "dur":5361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572660041, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572660067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572660073, "dur":8972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572669064, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572669084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572669091, "dur":6488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572675656, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572675676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572676114, "dur":6767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572682894, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572682945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572682948, "dur":7452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572690422, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572690515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572690522, "dur":6331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572696870, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572696887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572696893, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572701783, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572701798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572701803, "dur":5761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572707577, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572707935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572707941, "dur":4163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572712189, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572713194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572713218, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572715107, "dur":1639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572716753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572716923, "dur":13828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572730767, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572730789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572730794, "dur":8582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664505572739394, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1664505572739415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572739422, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1664505572741655, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1664505572741672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664505572741676, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1664505572742636, "dur":6429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572638654, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572638654, "dur":2117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572640772, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1664505572640870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572643537, "dur":2530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1664505572646085, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1664505572646134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572646142, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1664505572647158, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572647187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572647192, "dur":26992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572674211, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572674265, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572674273, "dur":7370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572681665, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572681685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572681694, "dur":5784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572687493, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572687511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572687518, "dur":6828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572694364, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572694383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572694391, "dur":5065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572699503, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572699524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572699529, "dur":6904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572706482, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572706503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572706510, "dur":7088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572713614, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572713642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572713649, "dur":7300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572721880, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572721923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572721931, "dur":5246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572727211, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572727233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572727240, "dur":6221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572733544, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572733872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664505572733880, "dur":15152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Virtual-Arts-Application/Build/Shape Placer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664505572749044, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1664505572749045, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664505572751273, "dur":1525, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
